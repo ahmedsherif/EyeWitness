@@ -87,6 +87,8 @@ case ${osinfo} in
     pip install pyasn1 --upgrade
     pip install pyvirtualdisplay
     pip install pytesseract
+    pip install --upgrade beautifulsoup4
+    pip install --upgrade html5lib 
     cd ../bin/
     MACHINE_TYPE=`uname -m`
     if [ ${MACHINE_TYPE} == 'x86_64' ]; then
